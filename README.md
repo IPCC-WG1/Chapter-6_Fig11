@@ -4,7 +4,7 @@ TEMPORAL REGIONAL MEAN NET EFFECTIVE RADIATIVE FORCING DUE TO AEROSOLS
 Figure number: Figure 6.11
 From the IPCC Working Group I Contribution to the Sixth Assessment Report: Chapter 6
 
-![Figure 6.11](../images/ar6_wg1_chap6_fig6_11_netERF_time_aer.png?raw=true)
+![Figure 6.11](/ar6_wg1_chap6_fig6_11_netERF_time_aer.png?raw=true)
 
 
 Description:
