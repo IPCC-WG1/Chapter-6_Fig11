@@ -9,7 +9,7 @@ From the IPCC Working Group I Contribution to the Sixth Assessment Report: Chapt
 
 Description:
 ------------
-Time evolution of 20-year multi-model mean averages of the annual area-weighted mean regional net Effective Radiative Forcings (ERFs) due to aerosols for each of the 14 major regions in the Atlas, and global mean, using the models and model experiments as in Figure 6.10.
+Time evolution of 5-year multi-model mean averages of the annual area-weighted mean regional net Effective Radiative Forcings (ERFs) due to aerosols for each of the 14 major regions in the Atlas, and global mean, using the models and model experiments as in Figure 6.10.
 
 Author list:
 ------------
@@ -35,7 +35,7 @@ ipcc_ar6wg1_fig6.11_erf_aer_time.py imports:
  
 Diagnostics description:
 Script [diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.11_erf_aer_time.py](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.11_erf_aer_time.py) calculates the gridded annual mean ERF of all models for IPCC AR6 WG1 Figure 6.11. 
-The final Figure 6.11 is created from [ipcc_ar6wg1_Fig6.11.ipynb](https://github.com/IPCC-WG1/Chapter-6_Fig11/blob/running-mean/ipcc_ar6wg1_Fig6.11.ipynb).
+The final Figure 6.11 is created from [ipcc_ar6wg1_Fig6.11.ipynb](https://github.com/IPCC-WG1/Chapter-6_Fig11/blob/main/ipcc_ar6wg1_Fig6.11.ipynb).
 
 
 Expected data output path:
@@ -51,7 +51,7 @@ N/A
 Ancillary figures and datasets:
 -------------------------------
 The final Figure 6.11 is created by the following Jupyter notebook:  
-[ipcc_ar6wg1_Fig6.11.ipynb](https://github.com/IPCC-WG1/Chapter-6_Fig11/blob/running-mean/ipcc_ar6wg1_Fig6.11.ipynb).
+[ipcc_ar6wg1_Fig6.11.ipynb](https://github.com/IPCC-WG1/Chapter-6_Fig11/blob/main/ipcc_ar6wg1_Fig6.11.ipynb).
 The Jupyter notebook reads in netcdf output from [diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.11_erf_aer_time.py](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/blob/IPCC_AR6_WG1_Ch6_ESMValTool/esmvaltool/diag_scripts/ar6ch6/ipcc_ar6wg1_fig6.11_erf_aer_time.py), which are output into the recipe path:  
 - recipe_erf_histSST-piAer_Fig6.11_YYYMMDD_HHMMSS/plots/diffexpts/ar6fig6_erf_time/LW_diff_timemap.nc   
 - recipe_erf_histSST-piAer_Fig6.11_YYYMMDD_HHMMSS/plots/diffexpts/ar6fig6_erf_time/SW_diff_timemap.nc   
@@ -73,7 +73,7 @@ Software description:
 ---------------------
 - ESMValTool environment file: [IPCC_environments/ar6wg1_chap6_figs_conda_environment.yml](https://github.com/ESMValGroup/ESMValTool-AR6-OriginalCode-FinalFigures/tree/main/IPCC_environments/ar6wg1_chap6_figs_conda_environment.yml)
 - Other software used:  
-A Jupyter notebook ([ipcc_ar6wg1_Fig6.11.ipynb](https://github.com/IPCC-WG1/Chapter-6_Fig11/blob/running-mean/ipcc_ar6wg1_Fig6.11.ipynb)) is used to create Figure 6.11. See section "Ancillary figures and datasets" and "Additional datasets", above, for information.  
+A Jupyter notebook ([ipcc_ar6wg1_Fig6.11.ipynb](https://github.com/IPCC-WG1/Chapter-6_Fig11/blob/main/ipcc_ar6wg1_Fig6.11.ipynb)) is used to create Figure 6.11. See section "Ancillary figures and datasets" and "Additional datasets", above, for information.  
 
 Hardware description:
 ---------------------
